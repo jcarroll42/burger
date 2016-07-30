@@ -22,4 +22,5 @@ var routes = require('./controllers/burger_controller.js');
 app.use('/', routes);
 
 var PORT = process.env.PORT || 8080;
-app.listen(port);
+// var PORT = 4444;
+app.listen(PORT);
